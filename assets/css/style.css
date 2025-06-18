@@ -8,6 +8,9 @@
 header {
   height: 150px;
   background-color: aqua;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 main {
