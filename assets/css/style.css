@@ -60,11 +60,15 @@ section p {
   height: 100px;
   width: calc(100vw - 300px);
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-row {
+  height: 100%;
+  display: flex;
 }
 
 .logo {
@@ -105,9 +109,21 @@ section p {
   border-radius: 50%;
 }
 
+footer img {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+}
+
 /* UTILITIES */
 .justify-between {
   justify-content: space-between;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
 }
 
 .gap-20 {
@@ -120,6 +136,18 @@ section p {
 
 .mg-left-30 {
   margin-left: 30px;
+}
+
+.mg-left-50 {
+  margin-left: 50px;
+}
+
+.mg-0-15 {
+  margin: 0 15px;
+}
+
+.mg-20-0 {
+  margin: 20px 0;
 }
 
 .pd-top-120 {
