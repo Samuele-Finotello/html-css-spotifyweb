@@ -5,31 +5,41 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
+footer {
   height: 150px;
-  background-color: aqua;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  background-color: brown;
 }
 
 main {
-  height: calc(100vh - 300px);
-  background-color: brown;
-  overflow: auto;
-}
-
-footer {
-  height: 150px;
-  background-color: cadetblue;
+  display: flex;
+  height: calc(100vh - 150px);
+  background-color: chartreuse;
 }
 
 #sidebar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: auto;
-  height: calc(100vh - 150px);
   width: 400px;
-  background-color: cornflowerblue;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+#content {
+  height: 100%;
+  width: calc(100vw - 400px);
+  overflow-y: auto;
+  background-color: burlywood;
+}
+
+.header-row {
+  height: 100px;
+  width: calc(100vw - 400px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+button {
+  margin: 0 30px;
 }
