@@ -5,16 +5,17 @@
   box-sizing: border-box;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 18px;
+  color: rgb(97, 100, 105);
 }
 
 footer {
-  height: 150px;
+  height: 120px;
   background-color: brown;
 }
 
 main {
   display: flex;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 120px);
   background-color: chartreuse;
 }
 
@@ -64,14 +65,14 @@ ul i,
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: cadetblue;
+  background-color: black;
 }
 
 #content {
   height: 100%;
   width: calc(100vw - 300px);
   overflow-y: auto;
-  background-color: burlywood;
+  background-color: rgb(20, 25, 34);
 }
 
 .header-row {
@@ -224,7 +225,7 @@ footer img {
 }
 
 .border-bottom {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(97, 100, 105);
 }
 
 .border-left {
