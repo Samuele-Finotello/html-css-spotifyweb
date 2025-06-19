@@ -48,3 +48,8 @@ button {
   height: 70px;
   margin: 15px 30px;
 }
+
+#sidebar ul {
+  padding-left: 30px;
+  list-style: none;
+}
