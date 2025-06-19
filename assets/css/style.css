@@ -27,12 +27,16 @@ ul {
 }
 
 section {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 h2 {
   margin-top: 50px;
   font-size: 1.6rem;
+}
+
+section p {
+  margin: 10px 0;
 }
 
 /* LAYOUT */
