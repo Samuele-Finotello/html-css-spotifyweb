@@ -101,6 +101,10 @@ section p {
   flex-wrap: wrap;
 }
 
+.popular div img {
+  border-radius: 50%;
+}
+
 /* UTILITIES */
 .justify-between {
   justify-content: space-between;
@@ -124,6 +128,10 @@ section p {
 
 .pd-top-20 {
   padding-top: 20px;
+}
+
+.pd-bottom-200 {
+  padding-bottom: 200px;
 }
 
 .wd-gap-20 {
