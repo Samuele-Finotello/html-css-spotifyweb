@@ -26,9 +26,18 @@ ul {
   list-style: none;
 }
 
+section {
+  margin-left: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 1.6rem;
+}
+
 /* LAYOUT */
 #sidebar {
-  width: 350px;
+  width: 300px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -38,14 +47,14 @@ ul {
 
 #content {
   height: 100%;
-  width: calc(100vw - 350px);
+  width: calc(100vw - 300px);
   overflow-y: auto;
   background-color: burlywood;
 }
 
 .header-row {
   height: 100px;
-  width: calc(100vw - 350px);
+  width: calc(100vw - 300px);
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -86,12 +95,19 @@ ul {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
 }
 
 /* UTILITIES */
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 .mg-left-30 {
@@ -102,7 +118,11 @@ ul {
   padding-top: 120px;
 }
 
-.wd-18 {
+.pd-top-20 {
+  padding-top: 20px;
+}
+
+.wd-gap-20 {
   width: calc(100% / 6 - 20px);
 }
 
