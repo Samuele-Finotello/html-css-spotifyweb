@@ -17,21 +17,21 @@ main {
 }
 
 #sidebar {
-  width: 400px;
+  width: 350px;
   height: 100%;
   background-color: cadetblue;
 }
 
 #content {
   height: 100%;
-  width: calc(100vw - 400px);
+  width: calc(100vw - 350px);
   overflow-y: auto;
   background-color: burlywood;
 }
 
 .header-row {
   height: 100px;
-  width: calc(100vw - 400px);
+  width: calc(100vw - 350px);
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -42,4 +42,9 @@ main {
 
 button {
   margin: 0 30px;
+}
+
+.logo {
+  height: 70px;
+  margin: 15px 30px;
 }
