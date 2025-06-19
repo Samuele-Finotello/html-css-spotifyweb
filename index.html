@@ -8,6 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Spotify Web App</title>
 </head>
@@ -17,29 +20,30 @@
   <main>
 
     <div id="sidebar">
-      <div class="mg-left-30">
-        <img class="logo" src="./assets/img/logo.svg" alt="Spotify">
+      <div>
+        <img class="logo mg-left-30" src="./assets/img/logo.svg" alt="Spotify">
         <ul>
-          <li class="white">#</li>
-          <li>#</li>
-          <li>#</li>
+          <li class="white pd-left-25 border-left"><i class="fa-solid fa-house pd-right-5"></i> Home</li>
+          <li class="mg-left-30"><i class="fa-solid fa-magnifying-glass pd-right-5"></i> Cerca</li>
+          <li class="mg-left-30"><i class="fa-solid fa-book pd-right-5"></i> La tua libreria</li>
         </ul>
-        <h3 class="white">PLAYLIST</h3>
-        <div class="add"></div>
+        <h3 class="white mg-left-30">PLAYLIST</h3>
+        <div class="add mg-left-30"><i class="fa-solid fa-plus"></i></div>
         <span>Crea Playlist</span>
-        <ul>
-          <li>#</li>
-          <li>#</li>
-          <li>#</li>
-          <li>#</li>
-          <li>#</li>
-          <li>#</li>
-          <li>#</li>
+        <ul class="mg-left-30">
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
+          <li>Nome Playlist</li>
         </ul>
       </div>
       <div class="mg-left-30">
-        <span>Installa app</span>
-        <h3 class="white">John Doe</h3>
+        <span class="border-bottom pd-right-120 pd-bottom-10"><i class="fa-solid fa-circle-arrow-down pd-right-5"></i>
+          Installa app</span>
+        <h3 class="white"><i class="fa-solid fa-user pd-right-5"></i> John Doe</h3>
       </div>
     </div>
     <div id="content">
@@ -51,37 +55,50 @@
 
       <!-- SEZIONI -->
       <div class="container">
-        <div class="row gap-20 pd-top-120 justify-between">
-          <div class="wd-gap-20 bg-blue">#</div>
-          <div class="wd-gap-20 bg-blue">#</div>
-          <div class="wd-gap-20 bg-blue">#</div>
-          <div class="wd-gap-20 bg-blue">#</div>
-          <div class="wd-gap-20 bg-blue">#</div>
-          <div class="wd-gap-20 bg-blue">#</div>
+        <div class="row gap-20 pd-top-120 justify-between text-center">
+          <div class="wd-15">IN EVIDENZA</div>
+          <div class="wd-15">PODCAST</div>
+          <div class="wd-15">CLASSIFICHE</div>
+          <div class="wd-15">GENERI E MOOD</div>
+          <div class="wd-15">NUOVE USCITE</div>
+          <div class="wd-15">SCOPRI</div>
         </div>
+        <div class="bottom mg-left-50"></div>
       </div>
 
       <!-- SECTION RECENTLY PLAYED -->
       <section>
         <h2 class="white">Recently played</h2>
-        <div class="row gap-20 pd-top-20">
-          <div class="wd-gap-10">
+        <div class="row gap-15 pd-top-20 text-center">
+          <div>
             <img src="./assets/img/metal_lifting.jpg" alt="">
+            <h3 class="white">Heavy Metal</h3>
+            <p>Subtitle</p>
           </div>
-          <div class="wd-gap-10">
+          <div>
             <img src="./assets/img/stranger.jpeg" alt="">
+            <h3 class="white">Stranger Things, Vol. <br> 1 (a Netflix Original <br> Series Soundtrack)</h3>
+            <p>Kyle Dixon &amp; Michael Stein</p>
           </div>
-          <div class="wd-gap-10">
+          <div>
             <img src="./assets/img/aquietplace.jpeg" alt="">
+            <h3 class="white">A quiet place</h3>
+            <p>Subtitle</p>
           </div>
-          <div class="wd-gap-10">
+          <div>
             <img src="./assets/img/split.jpeg" alt="">
+            <h3 class="white">Split</h3>
+            <p>Subtitle</p>
           </div>
-          <div class="wd-gap-10">
+          <div>
             <img src="./assets/img/cure.jpeg" alt="">
+            <h3 class="white">A cure for wellness</h3>
+            <p>Subtitle</p>
           </div>
-          <div class="wd-gap-10">
+          <div>
             <img src="./assets/img/sinister.jpeg" alt="">
+            <h3 class="white">Sinister</h3>
+            <p>Subtitle</p>
           </div>
         </div>
       </section>
@@ -89,13 +106,15 @@
       <!-- SECTION CREATO PER JOHN DOE -->
       <section>
         <h2 class="white">Creato per John Doe</h2>
-        <p>#</p>
-        <div class="row gap-20 pd-top-20">
+        <p>Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti</p>
+        <div class="row gap-20 pd-top-20 text-center">
           <div class="wd-gap-10">
             <img src="./assets/img/radar.jpeg" alt="">
+            <h3 class="white">Release Radar</h3>
           </div>
           <div class="wd-gap-10">
             <img src="./assets/img/mixdaily.jpeg" alt="">
+            <h3 class="white">Daily Mix 1</h3>
           </div>
         </div>
       </section>
@@ -103,13 +122,15 @@
       <!-- SECTION ARTISTI PIU' POPOLARI -->
       <section class="popular">
         <h2 class="white">Artisti pi&ugrave; popolari</h2>
-        <p>#</p>
-        <div class="row gap-20 pd-top-20 pd-bottom-200">
+        <p>Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti</p>
+        <div class="row gap-20 pd-top-20 pd-bottom-200 text-center">
           <div class="wd-gap-10">
             <img src="./assets/img/youg.jpeg" alt="">
+            <h3 class="white">Lana del Ray</h3>
           </div>
           <div class="wd-gap-10">
             <img src="./assets/img/einaudi.jpeg" alt="">
+            <h3 class="white">Ludovico Einaudi</h3>
           </div>
         </div>
       </section>
