@@ -157,7 +157,7 @@ footer img {
 }
 
 .bottom {
-  background-color: greenyellow;
+  border-bottom: 3px solid greenyellow;
   width: 40px;
   height: 3px;
 }
@@ -192,6 +192,11 @@ footer img {
   height: 5px;
   width: 150px;
   background-color: rgb(97, 100, 105);
+}
+
+button:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
 
 /* UTILITIES */
