@@ -10,7 +10,7 @@
 
 footer {
   height: 120px;
-  background-color: brown;
+  background-color: rgb(40, 40, 40);
 }
 
 main {
@@ -21,7 +21,7 @@ main {
 
 button {
   margin: 0 30px;
-  padding: 15px 30px;
+  padding: 15px 50px;
   border-radius: 30px;
   border: 2px solid white;
   background-color: rgb(8, 11, 18, 0.7);
@@ -56,6 +56,16 @@ ul i,
 
 #content img {
   height: 300px;
+  width: 100%;
+}
+
+footer h3 {
+  display: block;
+}
+
+footer i {
+  font-size: 1.4rem;
+  margin-right: 20px;
 }
 
 /* LAYOUT */
@@ -88,6 +98,7 @@ ul i,
 .footer-row {
   height: 100%;
   display: flex;
+  position: relative;
 }
 
 .logo {
@@ -134,6 +145,7 @@ footer img {
   height: 60px;
   width: 60px;
   vertical-align: middle;
+  margin-right: 15px;
 }
 
 .fa-plus {
@@ -148,6 +160,38 @@ footer img {
   background-color: greenyellow;
   width: 40px;
   height: 3px;
+}
+
+.play-icons p {
+  font-size: 20px;
+}
+
+.fa-circle-play {
+  font-size: 35px;
+}
+
+.bar-song {
+  height: 5px;
+  width: 130px;
+  background-color: aliceblue;
+}
+
+.bar-song-max {
+  height: 5px;
+  width: 550px;
+  background-color: rgb(97, 100, 105);
+}
+
+.bar-audio {
+  height: 5px;
+  width: 30px;
+  background-color: aliceblue;
+}
+
+.bar-audio-max {
+  height: 5px;
+  width: 150px;
+  background-color: rgb(97, 100, 105);
 }
 
 /* UTILITIES */
