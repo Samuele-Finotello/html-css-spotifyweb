@@ -176,6 +176,7 @@ footer img {
 }
 
 .bar-song {
+  position: relative;
   height: 5px;
   width: 130px;
   background-color: aliceblue;
@@ -187,7 +188,20 @@ footer img {
   background-color: rgb(97, 100, 105);
 }
 
+div.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  display: none;
+}
+
 .bar-audio {
+  position: relative;
   height: 5px;
   width: 30px;
   background-color: aliceblue;
@@ -222,6 +236,50 @@ a:hover .fa-house {
 div.add:hover {
   background-color: white;
   cursor: pointer;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+footer i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+div.bar-song-max:hover div.bar-song,
+div.bar-song:hover div.bar-song {
+  background-color: greenyellow;
+}
+
+div.bar-song-max:hover div.circle,
+div.bar-song:hover div.circle {
+  display: block;
+}
+
+div.bar-song-max:hover,
+div.bar-song:hover {
+  cursor: pointer;
+}
+
+div.bar-audio-max:hover div.bar-audio,
+div.bar-audio:hover div.bar-audio {
+  background-color: greenyellow;
+}
+
+div.bar-audio-max:hover div.circle,
+div.bar-audio:hover div.circle {
+  display: block;
+}
+
+div.bar-audio-max:hover,
+div.bar-audio:hover {
+  cursor: pointer;
+}
+
+
+.fa-circle-play:hover {
+  scale: 1.2;
 }
 
 /* UTILITIES */
@@ -264,6 +322,14 @@ div.add:hover {
 
 .mg-20-0 {
   margin: 20px 0;
+}
+
+.mg-left-65 {
+  margin-left: 65px;
+}
+
+.mg-left-15 {
+  margin-left: 15px;
 }
 
 .pd-top-120 {
