@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   color: rgb(97, 100, 105);
 }
 
@@ -55,7 +55,7 @@ ul i,
 }
 
 #content img {
-  height: 300px;
+  height: 150px;
   width: 100%;
 }
 
@@ -106,13 +106,13 @@ a {
 }
 
 .logo {
-  height: 60px;
+  height: 30px;
   margin: 15px 0;
 }
 
 #sidebar ul {
   margin-top: 10px;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 #sidebar h3 {
@@ -121,8 +121,8 @@ a {
 }
 
 .add {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   margin-right: 10px;
   background-color: rgb(163, 163, 163);
   display: inline-block;
@@ -132,6 +132,11 @@ a {
 
 .container {
   max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-bar {
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -157,7 +162,7 @@ footer img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 20px;
   color: black;
 }
 
@@ -178,7 +183,7 @@ footer img {
 .bar-song {
   position: relative;
   height: 5px;
-  width: 130px;
+  width: 20%;
   background-color: aliceblue;
 }
 
@@ -325,7 +330,7 @@ div.bar-audio:hover {
 }
 
 .mg-left-65 {
-  margin-left: 65px;
+  margin-left: 50%;
 }
 
 .mg-left-15 {
